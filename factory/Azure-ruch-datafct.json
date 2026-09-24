@@ -1,0 +1,15 @@
+{
+	"name": "Azure-ruch-datafct",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6b1ace83-743f-4265-8a0e-6b7e1768a9d5",
+		"tenantId": "ca417a94-26a6-4b6c-b6c7-b022d91f94a5"
+	}
+}
